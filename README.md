@@ -24,14 +24,15 @@ Os ANS (acordos de nível de serviço) deverão conter as seguintes informaçõe
 ## Estrutura do aplicativo
 
 O aplicativo web de gerenciamento de ANS obedecerá a filosofia estrutural MVC;
-*Diretório View: onde ficarão as páginas ou templates do sistema;
-*Diretório Model: onde ficarão os arquivos de conexão com o banco de dados e api;
-*Diretório Controller: onde ficarão os scripts de interação entre o View e o Model. 
 
-# Linguagens utilizadas;
+* Diretório View: onde ficarão as páginas ou templates do sistema;
+* Diretório Model: onde ficarão os arquivos de conexão com o banco de dados e api;
+* Diretório Controller: onde ficarão os scripts de interação entre o View e o Model. 
 
-*HTML5;
-*CSS - Bootstrap 3x
-*Vanilla JavaScript, jQuery, Angular 1x
-*PHP5 e/ou PHP7
-*SQL
+## Linguagens utilizadas;
+
+* HTML5;
+* CSS - Bootstrap 3x
+* Vanilla JavaScript, jQuery, Angular 1x
+* PHP5 e/ou PHP7
+* SQL
