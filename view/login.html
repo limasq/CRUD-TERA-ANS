@@ -1,0 +1,34 @@
+	<div class="row">
+		<div class="card" id="formLogin">
+			<div class="card-head card-titulo">{{titulo}}</div>
+			
+			<div class="card-body">		
+	
+				<form>
+					<div class="row mb-3">
+						<label for="inputEmail3" class="col-sm-4 col-form-label">Email:</label>
+						<div class="col-sm-8">
+							<input type="email" class="form-control" id="formLoginInputEmail" onblur="verificaLogin()" />
+						</div>
+					</div>
+
+					<div class="row mb-3">
+						<label for="inputPassword3" class="col-sm-4 col-form-label">Senha:</label>
+						<div class="col-sm-8">
+							<input type="password" class="form-control" id="formLoginInputSenha" />
+						</div>
+					</div>
+
+					<div class="row mb-3">
+						<span class="col-sm-4">&nbsp;</span>
+						<div class="d-grid gap-2 col-sm-8 mx-auto">
+							<button type="button" class="btn btn-primary btn-block" ng-show="mostraBotaoLogin"     id="btn-login">    Entrar</button>
+							<button type="button" class="btn btn-primary btn-block" ng-show="mostraBotaoNovoLogin" id="btn-novoLogin">Criar conta</button>
+							<button type="button" class="btn btn-primary btn-block" ng-show="mostraBotaoNovaSenha" id="btn-novaSenha">Recuperar senha</button>
+						</div>
+					</div>
+				</form>	
+		
+			</div>
+		</div>
+	</div>
